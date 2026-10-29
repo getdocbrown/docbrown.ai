@@ -1,0 +1,23 @@
+app/layout.tsx
+  s_edeb9fb3d72da0::t_aa6eaced8defdd 11
+components/brand-logo.tsx
+  s_edeb9fb3d72da0::t_aa6eaced8defdd 6
+public/docbrown.svg
+  s_edeb9fb3d72da0::t_fb70c54401826e 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "244b0c276a978e15d874ccc1796ee6f95beab554",
+  "prompts": {},
+  "sessions": {
+    "s_edeb9fb3d72da0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1876e-b18d-7602-bae7-806b0ff62602",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Marc Campbell <marc.e.campbell@gmail.com>"
+    }
+  }
+}
