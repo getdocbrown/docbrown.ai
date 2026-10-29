@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SearchDemo from "@/components/search-demo";
+import BrandLogo from "@/components/brand-logo";
 
 // Render complete, indexable HTML on every request, including the demo's initial state.
 export const dynamic = "force-dynamic";
@@ -9,7 +10,7 @@ const repository = "https://github.com/getdocbrown/docbrown-macos";
 export default function Home() {
   return <div id="db-designs"><div className="db-site db-memory">
     <nav className="db-nav" aria-label="Main navigation">
-      <Link className="db-logo" href="/" aria-label="DocBrown home"><span className="db-mark" aria-hidden="true">d<span>↶</span></span>docbrown<span className="db-domain">.ai</span></Link>
+      <BrandLogo />
       <div className="db-navlinks"><Link href="/privacy">Privacy</Link><a href={repository}>GitHub</a></div>
     </nav>
     <main>

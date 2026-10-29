@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: { type: "website", locale: "en_US", siteName: "DocBrown", url: "https://docbrown.ai", title: "Your code has a history. Find the conversation.", description: "Search your Codex and Claude Code conversations locally on your Mac.", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", title: "DocBrown — Find the conversation behind your code", description: "A local Mac app for your coding conversations.", images: ["/opengraph-image"] },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/docbrown.png", apple: "/docbrown.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
