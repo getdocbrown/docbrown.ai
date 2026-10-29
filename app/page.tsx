@@ -16,7 +16,7 @@ export default function Home() {
       <header className="db-hero">
         <h1>Your code has a history.<br /><em>Find the conversation.</em></h1>
         <p>A Mac app that indexes your Codex and Claude Code conversations locally.<br />Find the discussion behind a file, commit, or pull request.</p>
-        <div className="db-actions"><a className="db-primary" href={`${repository}/releases/latest`}>Download the Mac app</a><a className="db-demo" href="#search-demo">Try the search demo</a></div>
+        <div className="db-actions"><a className="db-primary" href={`${repository}/releases/latest`}>Download the Mac app</a></div>
         <div className="db-local-note">Runs on your Mac. Your conversations stay on your Mac. No account needed.</div>
         <div className="db-small">macOS 14+ <span>·</span> Apple silicon &amp; Intel <span>·</span> Open source</div>
       </header>
