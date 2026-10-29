@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "docbrown-ai",
+  "account_id": "9bc43dd1cc5fcf2d0f8ea7a88f917ea5",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-29",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "docbrown-ai" }],
+  "routes": [
+    { "pattern": "docbrown.ai", "custom_domain": true },
+    { "pattern": "www.docbrown.ai", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
