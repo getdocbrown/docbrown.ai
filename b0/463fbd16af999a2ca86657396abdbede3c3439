@@ -1,0 +1,57 @@
+package.json
+  s_edeb9fb3d72da0::t_f27355cc164f7a 1-30
+wrangler.jsonc
+  s_edeb9fb3d72da0::t_a63a689be255c0 1-15
+app/globals.css
+  s_edeb9fb3d72da0::t_b45882e3edc857 1-9
+next-env.d.ts
+  s_edeb9fb3d72da0::t_7e54fdecfdaf7c 1-7
+package-lock.json
+  s_edeb9fb3d72da0::t_b46c96eee1ebe1 1-6193
+.gitignore
+  s_edeb9fb3d72da0::t_99538c73f7bb8e 1-9
+.nvmrc
+  s_edeb9fb3d72da0::t_e1a26a97f87104 1
+README.md
+  s_edeb9fb3d72da0::t_e9004bf1ef032d 1-31
+app/layout.tsx
+  s_edeb9fb3d72da0::t_b5067650231b34 1-16
+app/opengraph-image.tsx
+  s_edeb9fb3d72da0::t_0c592acf671f5d 1-7
+app/page.tsx
+  s_edeb9fb3d72da0::t_b3f85600640ba4 1-33
+app/privacy/page.tsx
+  s_edeb9fb3d72da0::t_b9aa9a67d09a0e 1-6
+app/robots.ts
+  s_edeb9fb3d72da0::t_5ba11867e57b3f 1-4
+app/sitemap.ts
+  s_edeb9fb3d72da0::t_48a0a5210ef0ed 1-4
+components/search-demo.tsx
+  s_edeb9fb3d72da0::t_b22758ef57c732 1-43
+next.config.ts
+  s_edeb9fb3d72da0::t_adf7de69f2a734 1-10
+open-next.config.ts
+  s_edeb9fb3d72da0::t_8cbb1c9b4d5b84 1-3
+public/_headers
+  s_edeb9fb3d72da0::t_d4ad2f2610ff39 1-2
+public/icon.svg
+  s_edeb9fb3d72da0::t_d89778f8335dc9 1
+tsconfig.json
+  s_edeb9fb3d72da0::t_35ecd1197e2c05 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b0463fbd16af999a2ca86657396abdbede3c3439",
+  "prompts": {},
+  "sessions": {
+    "s_edeb9fb3d72da0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1876e-b18d-7602-bae7-806b0ff62602",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Marc Campbell <marc.e.campbell@gmail.com>"
+    }
+  }
+}
