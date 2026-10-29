@@ -1,0 +1,19 @@
+app/page.tsx
+  s_edeb9fb3d72da0::t_9448d99cf0a6e7 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8bae5fadd2406ecbceb36db790fe3d7283d8eec6",
+  "prompts": {},
+  "sessions": {
+    "s_edeb9fb3d72da0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1876e-b18d-7602-bae7-806b0ff62602",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Marc Campbell <marc.e.campbell@gmail.com>"
+    }
+  }
+}
